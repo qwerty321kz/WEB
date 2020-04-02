@@ -1,0 +1,81 @@
+body{
+	display: inline-block;
+	background-color: #F8F9F9;
+}
+h5{
+	padding-left: 50px;
+	color:gray;
+	font-family: 'Times New Roman', Times, serif;
+}
+article{
+	
+	margin: 20px 20px 20px 20px;
+}
+#text1{
+	color: rgb(153, 153, 153);
+}
+section{
+	width: 350px;
+	height: 616px;
+	background-color: rgb(255, 255, 255);
+}
+#section_2{
+	width: 350px;
+	height: 20px;
+	background-color: rgb(255, 255, 255);
+}
+#section_3{
+	width: 350px;
+	height: 100px;
+	text-align: center;
+	/* vertical-align: baseline; */
+	padding-left: 40px;
+	background-color: rgb(255, 255, 255);
+}
+
+#section_4 {
+	width: 350px;
+	height: 100px;
+	padding-left: 40px;
+	background-color:rgb(255, 255, 255);
+}
+.form{
+	float:left;
+	margin: 50px 10px 10px 10px;
+}
+#f1{
+	align-self: center;
+}
+#instagram-h1{
+	font-family: Freight Sans;
+}
+.pictures{
+	float: left;
+	margin: 130px 20px 20px 250px;
+}
+li{
+	list-style: none;
+	float: left;
+}
+li a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+#AppStore {
+	width: 136px;
+	height: 40px;
+	float: left;
+}
+#PlayMarket {
+	margin-right: 0;
+	width: 136px;
+	height: 40px;
+	float: left;
+}
+#photo {
+	padding-left: 40px;
+	align-content: center;
+	align-items: center;
+}

@@ -1,0 +1,27 @@
+.navigation {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.delete {
+    float: right;
+    border: 0px;
+    border-radius: 8px;
+    background-color: red;
+    margin-right: 300px;
+    height: 30px;
+    width: 70px;
+}
+#text2 {
+    font-size: 24px;
+    padding-left: 30px;
+}
+#text1 {
+    display: flex;
+    flex: row;
+    font-size: 14px;
+    padding-left: 20px;
+}

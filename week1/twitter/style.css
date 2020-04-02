@@ -1,0 +1,166 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 90vh;
+	margin: auto;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+
+.box{
+		flex: 1;
+}
+.box:first-child{
+	background-color: #30b0ff;
+}
+.rightside{
+	position: relative;
+	color: white;
+	font-size: 18px;
+	margin:50px 0;
+
+}
+.container .box:first-child{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .box:last-child{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+
+}
+.center{    
+	height: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    width: 48%;
+    margin-bottom: 142px;
+}
+.center h1{
+	font-size: 27px;
+}
+.center i{
+	color: #1da1f2;
+	align-self: flex-start;
+	justify-content: flex-start;
+	margin-bottom: -35px;
+	font-size: -webkit-xxx-large;
+}
+.center p{
+	align-self: flex-start;
+	color: #14171a;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    margin: -10px auto;
+}
+.center button{
+	width: 100%;
+    height: 44px;
+    margin-bottom: -13px;
+    margin-top: -20px;
+}
+button:hover{
+	background-color: #eaf5fd;
+}
+.regbut{
+	background-color: #1da1f2;
+	color: white;
+
+}
+.regbut:hover{
+	background-color: #006dbf;
+}
+.logform{
+	padding: 15px;
+	font-size: 18px;
+	width: 600px;
+	margin:auto;
+
+}
+.logform{
+	margin: auto;
+    padding: 0;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+input{
+
+    height: 32px;
+    width: 33%;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border-width: thin;
+    padding: 6px;
+}
+form{
+	margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 600px;
+
+}
+button{
+	background-color: #fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 100px;
+    font-weight: 600;
+}
+span{
+	font-size: 12px;
+	float: right;
+	color: grey;
+	margin-right: 200px;
+}
+.logform a{
+	text-decoration: none;
+	color: grey;
+}
+#birdimg{
+	left: -21px;
+    position: absolute;
+    z-index: 0;
+
+}
+
+footer{
+	border-top: 1px solid #e6ecf0;
+	padding: 11px 0;
+}
+footer ul{
+	margin:0 auto;
+	text-align: center;
+	font-size: 16px;
+}
+footer li{
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+
+}
+
+footer a{
+	text-decoration:none;
+	color: grey;
+}
