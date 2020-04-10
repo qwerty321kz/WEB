@@ -1,0 +1,18 @@
+<!--<h2 style="text-align:center; margin: 40px 0px;">{{dish.categoryId.name}}</h2>-->
+<!--<div class="products">-->
+<!--  <div class="product-item maxScale"  *ngFor="let dish of dishes">-->
+
+<!--    <h3>-->
+<!--      <a routerLink="/menu/{{dish.categoryId.menuId}}/dishes/{{dish.id}}" [state]="{ dish:dish }" [title]="dish.name " >-->
+<!--        {{ dish.name }}-->
+<!--      </a>-->
+<!--    </h3>-->
+<!--    <img src={{dish.image_url}} width="270px">-->
+<!--    <br>-->
+<!--    <h4> Price: {{ dish.price }} $ <span style="color: red;float:right;font-size: 10px;"> <br> Description: {{ dish.description }} </span></h4>-->
+<!--  </div>-->
+<!--</div>-->
+<h1 *ngFor="let dish of dishes">
+  {{dish.name}}
+  {{dish.description}}
+</h1>
